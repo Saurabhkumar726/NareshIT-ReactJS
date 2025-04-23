@@ -1,10 +1,15 @@
 import React from 'react'
-
+import Header from './components/Header'
+import AllPokemons from './components/AllPokemons'
+import Footer from './components/Footer'
+import './App.css'
 function App() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Header />
+      <AllPokemons />
+      <Footer />
+    </>
   )
 }
 
