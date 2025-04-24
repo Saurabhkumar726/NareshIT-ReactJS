@@ -1,0 +1,73 @@
+nav {
+  margin-top: 1rem;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+nav .nav-container .menu-list {
+  cursor: pointer;
+}
+nav .nav-container .menu-list .menu-icon {
+  display: none;
+  font-size: 1.3em;
+}
+.nav-container .logo {
+  display: flex;
+}
+.nav-container .logo {
+  display: flex;
+}
+.nav-container .logo h2 {
+  font-weight: 700;
+  display: flex;
+}
+.nav-container .logo .danger {
+  color: red;
+}
+.nav-container .app-links {
+  text-transform: capitalize;
+  display: flex;
+  gap: 1rem;
+}
+.nav-container .app-links > div {
+  border: 2px solid var(--clr-black);
+  height: fit-content;
+  padding: 0.27rem;
+  font-weight: 600;
+  border-radius: 5rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.nav-container .app-links h4 {
+  font-weight: 600;
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+.nav-container .app-links > div:hover {
+  background: var(--clr-black);
+  color: var(--clr-white);
+}
+/* =====For Small screens====== */
+
+@media screen and (max-width: 600px) {
+  .nav-container {
+    align-items: center;
+  }
+  nav .nav-container .menu-list h4 {
+    display: none;
+  }
+  nav .nav-container .menu-list .menu-icon {
+    display: block;
+  }
+  .nav-container .app-links > div {
+    padding: 0.6rem;
+    letter-spacing: normal;
+    border-radius: 2rem;
+    font-weight: 400;
+  }
+  .nav-container .app-links h4 > span {
+    display: none;
+  }
+}
