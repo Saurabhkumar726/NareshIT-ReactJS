@@ -1,6 +1,6 @@
-JAVASCRIPT REVISION
+JAVASCRIPT REVISION  - modules,promises, async await , timers , OOP, array methods
 React Introduction
-Components
+Components  - class , functional
 nested Components
 props(parent to child and child to parent)
 state(useState)
@@ -10,9 +10,25 @@ lists
 context API
 class Components
 life cycle methods
-hooks
-forms
+routing
+forms 
   -- controlled Components
   -- uncontrolled Components
 libraries
-redux
+redux, redux toolkit
+hooks
+crud operations
+git & github
+firebase
+typescript, next js
+REAL TIME PROJECT
+
+Project Ideas:
+Movies APP (OTT)
+Audio streaming(spotify)
+News APP
+Real time chat APP (web sockets)
+Ecommerce Website
+Blog 
+Quiz
+AI related Projects
